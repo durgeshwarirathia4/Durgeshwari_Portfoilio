@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #eef2ff, #f9e7ff);
+}
+
+nav {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.card {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #4f46e5;
+}
+
+.skills span {
+  background: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 6px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box, .project-box {
+  background: #f8f9ff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 12px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+footer {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer a {
+  color: #ffdd57;
+  text-decoration: none;
+  font-weight: 600;
+}
+.project-card {
+    background: #fdfafa;
+    padding: 40px;
+    margin: 15px 0;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+.project-card span {
+  background: #888bf3;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 6px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.project-card span1 {
+    background: #f0e1f0;
+  color: rgb(51, 48, 48);
+  padding: 15px 25px;
+  border-radius: 20px;
+  margin: 15px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
